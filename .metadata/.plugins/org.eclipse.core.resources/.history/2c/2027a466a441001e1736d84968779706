@@ -1,0 +1,27 @@
+package classexe;
+
+public class lesser {
+	
+	public static void main(String args[]) {
+		int a=20,b=30,c=10,temp;
+		if(a>b) { //20>30
+			temp=a;
+			a=b;
+			b=temp;
+		}
+		if(b>c) { //30>20
+			temp=b; //temp=30
+			b=c; //b=10
+			c=temp; //c=30
+		}
+		if(a>c) { //20>30
+			temp=b;
+			b=c;
+			c=temp;
+		}
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+	}
+
+}

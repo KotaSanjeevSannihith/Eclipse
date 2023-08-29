@@ -1,0 +1,15 @@
+package classexe;
+
+public class operators {
+	public static void main(String args[]){
+		double a=30.0,b=40.0;
+		char k='/';
+		if((int)(k)==43) {
+			System.out.println("Addition "+(a+b));
+		}
+		if((int)(k)==47) {
+			System.out.println("division"+(a/b));
+		}
+	}
+
+}

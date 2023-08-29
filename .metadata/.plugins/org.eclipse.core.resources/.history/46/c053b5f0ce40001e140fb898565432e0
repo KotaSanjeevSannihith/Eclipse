@@ -1,0 +1,13 @@
+package quad;
+
+public class quad {
+
+	public static void main(String[] args) {
+		System.out.println("Given Quadratic equation: x^2+2x+1=0");
+		double a=1.0,b=2.0,c=1.0;
+		double rootone=(-b+(Math.sqrt((Math.pow(a, 2))-4*a*c))/(4*a));
+		double roottwo=(-b-Math.sqrt(Math.pow(a, 2)-4*a*c)/4*a);
+		System.out.println("1st root is= "+rootone+"  2nd root is= "+roottwo);
+	}
+
+}

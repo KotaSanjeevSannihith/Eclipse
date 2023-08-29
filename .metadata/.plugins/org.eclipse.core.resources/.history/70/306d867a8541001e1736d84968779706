@@ -1,0 +1,15 @@
+package homework;
+
+public class capitalsmall {
+
+	public static void main(String[] args) {
+		char letter='A';
+		int k=(int)(letter);
+		if(k>=65 && k<=90) {
+			System.out.println("given number is capital number");
+		}
+		// TODO Auto-generated method stub
+
+	}
+
+}

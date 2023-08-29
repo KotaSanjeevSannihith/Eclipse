@@ -1,0 +1,38 @@
+package homework;
+
+public class insurance {
+	public static void main(String args[]) {
+		String name="Rani",health="Good",place="city";
+		int age=27;
+		int premium=0,policy=0;
+		char sex='F';
+		if(age>=25 && age<=35) {
+			if(health=="Good" && place=="city") {
+				if(sex=='M') {
+					premium=10000;
+					policy=200000;
+				}
+				else {
+					premium=3000;
+					policy=100000;
+				}
+			}
+			else if(health=="Poor" && place=="village") {
+				if(sex=='M') {
+					premium=6000;
+					policy=10000;
+				}
+				else {
+					System.out.println("Person is not insured");
+				}
+			}
+		}
+		System.out.println("Name : "+name);
+		System.out.println("Age : "+age);
+		System.out.println("Gender : "+sex);
+		System.out.println("The premium amount is "+premium);
+		System.out.println("The policy amount is "+policy);
+		
+	}
+
+}

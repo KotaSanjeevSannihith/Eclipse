@@ -1,0 +1,26 @@
+package classexe;
+
+public class upperlower {
+	
+	public static void main(String args[]) {
+		
+		char temp='Q';
+		int temp1=(int)(temp);
+		if(temp1>=65) {
+			if(temp1<=90) {
+				temp1=temp1+32;
+			}
+		}
+		if(temp1>=97) {
+			if(temp1<=122) {
+				temp1=temp1-32;
+			}
+		}
+		else {
+			System.out.println("Given character is not a alphabet");
+		}
+		temp=(char)(temp1);
+		System.out.println(temp);
+	}
+	
+}

@@ -1,0 +1,21 @@
+package classexe;
+
+public class evensumoddprod {
+
+	public static void main(String[] args) {
+		int a=1,b=50,temp=1;
+		while(a<=b){
+			if(a%2==0) {
+				temp=temp+a;
+				a++;
+			}
+			else {
+				temp=temp*a;
+				a++;
+			}
+			System.out.println(temp);
+		}
+		System.out.println(temp);
+	}
+
+}

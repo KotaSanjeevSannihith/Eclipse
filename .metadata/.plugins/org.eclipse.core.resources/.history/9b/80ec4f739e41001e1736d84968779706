@@ -1,0 +1,31 @@
+package classexe;
+
+public class greater {
+	
+	public static void main(String args[]) {
+		int a=70,b=60,c=50,temp,tempone;
+		if(a>b) {
+			if(b>c) {
+				temp=a;
+				a=c;
+				c=temp;
+				System.out.println(a);
+				System.out.println(b);
+				System.out.println(c);
+			if(b<c) {
+				temp=c;
+				tempone=a;
+				c=b;
+				b=temp;
+				System.out.println(a);
+				System.out.println(b);
+				System.out.println(c);
+				}
+			}
+				//System.out.println(a);
+				//System.out.println(b);
+				//System.out.println(c);
+		}
+	}
+
+}

@@ -1,0 +1,10 @@
+package compoundinterest;
+
+public class compound {
+	public static void main(String args[]) {
+		int p=2000,t=5,r=12;
+		double ci=p*Math.pow(1+(r/100),t);
+		System.out.println(ci);
+	}
+
+}

@@ -1,0 +1,18 @@
+package classexe;
+
+public class upperlower {
+	
+	public static void main(String args[]) {
+		
+		char temp='K';
+		int temp1=(int)(temp),temp2;
+		if(temp1>=65) {
+			if(temp1<=90) {
+				temp1=temp1+32;
+			}
+		}
+		temp=(char)(temp1);
+		System.out.println(temp);
+	}
+	
+}
