@@ -1,0 +1,11 @@
+package classexe;
+
+public class factorial {
+
+	public static void main(String[] args) {
+		int fact=1,num=5;
+		// TODO Auto-generated method stub
+
+	}
+
+}

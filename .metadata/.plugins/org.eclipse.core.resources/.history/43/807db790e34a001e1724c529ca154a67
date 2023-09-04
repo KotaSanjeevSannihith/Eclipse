@@ -1,0 +1,16 @@
+package classexe;
+
+public class summation {
+
+	public static void main(String[] args) {
+		int num=5,count=0,var=0;
+		while(num>=var) {
+			count+=num;
+			var++;
+		}
+		System.out.println(count);
+		// TODO Auto-generated method stub
+
+	}
+
+}
