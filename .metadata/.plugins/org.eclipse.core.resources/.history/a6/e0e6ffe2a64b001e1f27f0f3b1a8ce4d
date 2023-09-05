@@ -1,0 +1,17 @@
+package classexe;
+
+public class factors {
+
+	public static void main(String[] args) {
+		int num=100,start=1;
+		while(start<=num) {
+			if(num%start==0) {
+				System.out.println(start+" is a factor of "+num);
+			}
+		start++;
+		}
+		// TODO Auto-generated method stub
+
+	}
+
+}
