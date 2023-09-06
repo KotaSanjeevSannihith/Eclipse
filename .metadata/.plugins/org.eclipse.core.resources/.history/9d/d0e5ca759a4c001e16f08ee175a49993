@@ -8,10 +8,10 @@ public class addfact {
 		second=num/10;
 		num=first+second;
 		System.out.println(first+" "+second);
-		while(num>=i) {
-			fact*=num;
-			num--;
-		}
+		//while(num>=i) {
+		//	fact*=num;
+		//	num--;
+		//}
 		System.out.println(fact);
 		while(k<=num/2) {
 			if(num%k==0) {

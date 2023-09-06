@@ -13,7 +13,7 @@ public class addfact {
 			num--;
 		}
 		System.out.println(fact);
-		while(k<=num/2) {
+		while(k<=num) {
 			if(num%k==0) {
 				System.out.println(k);
 			}
