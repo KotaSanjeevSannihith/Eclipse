@@ -1,8 +1,12 @@
 INDEX VERSION 1.134+/Users/sanjeevsannihithkota/Documents/Eclipse/.metadata/.plugins/org.eclipse.jdt.core
 1865797976.index
 960626277.index
+<<<<<<< HEAD
 1112184408.index
 3468314333.index
 3907523725.index
+=======
+3468314333.index
+>>>>>>> refs/remotes/origin/master
 3735875275.index
 1375964667.index

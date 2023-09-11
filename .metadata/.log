@@ -4038,6 +4038,7 @@ java.lang.NumberFormatException: For input string: "or" under radix 16
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< HEAD
 !SESSION 2023-09-07 09:45:17.288 -----------------------------------------------
 eclipse.buildId=4.28.0.20230608-1200
 java.version=17.0.7
@@ -5793,3 +5794,5 @@ java.lang.NumberFormatException: For input string: "or" under radix 16
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+=======
+>>>>>>> refs/remotes/origin/master

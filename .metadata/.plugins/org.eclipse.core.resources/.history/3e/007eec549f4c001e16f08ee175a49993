@@ -1,0 +1,16 @@
+package classexe;
+
+public class seventable {
+
+	public static void main(String[] args) {
+		int num=8,i;
+		for(i=2;i<=20;i+=2) {
+			//if((num*i)%2==0) {
+				System.out.println(num+" x "+i+" = "+(num*i));
+			//}
+		}
+		// TODO Auto-generated method stub
+
+	}
+
+}
