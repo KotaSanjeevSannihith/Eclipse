@@ -8,17 +8,16 @@ public class oddsumevenmul {
 		int rem=0,count=0,sum=0,mul=1;
 		for(;n!=0;n/=10) {
 			rem=n%10;
-			
+			count++;
 			if(count%2==0) {
 				sum+=rem;
 			}
-			else {
+			else if(count%2==1) {
 				mul*=rem;
 			}
-			count++;
 		}
 		System.out.println("Addition "+sum);
-		System.out.println("Product "+sum);
+		System.out.println("Product "+mul);
 
 	}
 
