@@ -1,39 +1,34 @@
 package chapter4;
 import java.util.Arrays;
-import java.util.Scanner;
 public class Everything 
 {
 	public static void main(String[] args) 
 	{
-		Scanner sc=new Scanner(System.in);
-		int a0[]=new int[] {8,17,11,12,21,16,14,13,3,4};
-		int a1[]=new int[] {8,17,11,12,21,16,14,13,3,4};
-		int a2[]=new int[] {8,17,11,12,21,16,14,13,3,4};
-		int a3[]=new int[] {8,17,11,12,21,16,14,13,3,4};
-		int a4[]=new int[] {8,17,11,12,21,16,14,13,3,4};
-		int a5[]=new int[] {8,17,11,12,21,16,14,13,3,4};
+		int a[]=new int[] {8,17,11,12,21,16,14,13,3,4};
 		Operations op=new Operations();
-		String input=sc.next();
+		String input="Bubble Sort";
 		switch(input)
 		{
 		case "Linear Search":
-			op.searchLinear(a0, 16);
+			op.searchLinear(a, 16);
 			break;
 		case "Binary Search":
-			op.searchBinary(a1, 13);
+			op.searchBinary(a, 13);
 			break;
 		case "Largest Element":
-			op.elementLargest(a2);
+			op.elementLargest(a);
 			break;
 		case "Smallest Element":
-			op.elementSmallest(a3);
+			op.elementSmallest(a);
 			break;
 		case "Traditional Sort":
-			op.sortTraditional(a4);
+			op.sortTraditional(a);
 			break;
 		case "Selection Sort":
-			op.sortSelection(a5);
+			op.sortSelection(a);
 			break;
+		case "Bubble Sort":
+			op.sortBubble(a);
 		}
 		
 	}
@@ -106,7 +101,7 @@ class Operations
 	}
 	void searchLinear(int a[],int ele)
 	{
-		int x,y,enable=0;
+		int x,enable=0;
 		for(x=0;x<a.length;x++)
 		{
 			if(ele==a[x])
@@ -120,7 +115,7 @@ class Operations
 	void searchBinary(int a[],int ele)
 	{
 		Arrays.sort(a);
-		int x,y,enable=0;
+		int enable=0;
 		int min=0,max=a.length-1,mid;
 		while(min<=max)
 		{
@@ -141,5 +136,23 @@ class Operations
 		}
 
 		System.out.println(enable==1?"Element found":"Element not found");
+	}
+	void sortBubble(int a[])
+	{
+		int temp=0;
+		for(int i=0;i<a.length;i++)
+		{
+			for(int j=1;j<a.length;j++)
+			{
+				if(a[j-1]>a[j])
+				{
+					temp=a[j-1];
+					a[j-1]=a[j];
+					a[j]=temp;
+				}
+			}
+		}
+		for(int temp1:a)
+			System.out.print(temp1+"  ");
 	}
 }
