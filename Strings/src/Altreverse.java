@@ -1,7 +1,7 @@
-
-public class Altreverse {
-
-	public static void main(String[] args) {
+public class Altreverse 
+{
+	public static void main(String[] args) 
+	{
 		String s="hello all good morning";
 		String k[]=s.split(" ");
 		for(int x=0;x<k.length;x++)
