@@ -2,7 +2,8 @@ public class Everything
 {
 	public static void main(String[] args) 
 	{
-	String str = "aaaaabbba";
+	/*
+		String str = "aaaaabbba";
 	int count = 1;
 	for(int i = 0; i <str.length();i=i+count)
 	{
@@ -20,5 +21,8 @@ public class Everything
 	    }
 	    System.out.print(str.charAt(i)+""+count);
 	}
+	*/
+		
+		System.out.println('9'<'s');
 	}
 }
