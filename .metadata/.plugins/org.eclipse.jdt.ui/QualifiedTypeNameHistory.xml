@@ -4,5 +4,6 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.sanjeev.package2.Three"/>
     <fullyQualifiedTypeName name="com.sanjeev.package1.Two"/>
+    <fullyQualifiedTypeName name="com.sanjeev.polymorphism1.One"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

@@ -40,7 +40,10 @@ public class College
 }
 class UG extends College
 {
-	
+	void courseUG(String s)
+	{
+		
+	}
 }
 class PG extends College
 {
