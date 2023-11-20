@@ -6,4 +6,7 @@
     <fullyQualifiedTypeName name="com.sanjeev.package1.Two"/>
     <fullyQualifiedTypeName name="com.sanjeev.polymorphism1.One"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
